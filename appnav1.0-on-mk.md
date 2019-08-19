@@ -20,7 +20,7 @@ Install Application Navigator on minikube
           https://github.com/IBM/charts
    1. Install chart
    ```
-   helm install --name=app-nav --set env.kubeEnv=minikube <charts location i.e. /charts/stable/ibm-app-navigator> --set appNavUI.service.type=NodePort
+   helm install --name=app-nav --set env.kubeEnv=minikube <charts location i.e. ./charts/stable/ibm-app-navigator> --set appNavUI.service.type=NodePort
    ```
    1. Make sure all prism pods are running (i.e. prism, prism-controller, prism-was-controller)
    ```
